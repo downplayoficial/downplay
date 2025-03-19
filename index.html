@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DownPlay</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "config": "./config.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DownPlay</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar juegos...">
+                <button><svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                </svg></button>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Inicio</a>
+                <a href="#categories">Categorías</a>
+                <a href="#featured">Destacados</a>
+                <a href="#new">Nuevos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="featured-games" class="game-grid">
+            <!-- Games will be populated by JavaScript -->
+        </section>
+
+        <section id="categories">
+            <h2>Categorías Populares</h2>
+            <div class="category-grid">
+                <div class="category-card">Todos</div>
+                <div class="category-card">Supervivencia</div>
+                <div class="category-card">Acción</div>
+                <div class="category-card">Aventura</div>
+                <div class="category-card">Deportes</div>
+                <div class="category-card">Estrategia</div>
+                <div class="category-card">RPG</div>
+                <div class="category-card">Carreras</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Tu destino para los mejores juegos</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <a href="#terms">Términos y Condiciones</a>
+                <a href="#privacy">Política de Privacidad</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
