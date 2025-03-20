@@ -27,36 +27,6 @@ export const config = {
                 mediafire: "https://www.mediafire.com/file/gfqn5irxu6ehfm9/My1SUmeRC1ArrDownPlay.rar/file",
                 drive: "https://drive.google.com/file/d/1odQk6ch1keA8z5Q-yaqvcauvOtWvLJdl/view?usp=sharinge"
             }
-        },
-        {
-            title: "Racing Master",
-            price: "Gratis",
-            image: "data:image/svg+xml,<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' fill='%23e74c3c'/></svg>",
-            downloads: {
-                mega: "#",
-                mediafire: "#",
-                drive: "#"
-            }
-        },
-        {
-            title: "Space Explorer",
-            price: "Gratis",
-            image: "data:image/svg+xml,<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' fill='%232ecc71'/></svg>",
-            downloads: {
-                mega: "#",
-                mediafire: "#",
-                drive: "#"
-            }
-        },
-        {
-            title: "Puzzle Quest",
-            price: "Gratis",
-            image: "data:image/svg+xml,<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect width='100' height='100' fill='%239b59b6'/></svg>",
-            downloads: {
-                mega: "#",
-                mediafire: "#",
-                drive: "#"
-            }
         }
     ]
 };
